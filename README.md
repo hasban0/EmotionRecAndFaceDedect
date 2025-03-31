@@ -1,11 +1,11 @@
 <div align="center">
-<h2>Python ile çoklu yüz tespit, yüz sayısı ve tekil duygu tespiti</h2>
+<h2>Multi-face Detection, Face Count, and Individual Emotion Detection with Python</h2>
 </div>
 <div>
 
 
 ```python
- #Kullanılan Python paketlerinin çalışması için 
+ #To install the necessary Python packages 
  pip install -r requirements.txt
   ```
   
@@ -16,43 +16,27 @@
   
   
 ```
-a) Bu programın çalışması için önerilen Python Sürümü: “Python 3.11”
+Basic Warnings:
 
-b) Kullanılan Python paketlerinin çalışması için “pip install -r requirements.txt”
-komutunun Komut İstemi (CMD) / Terminal (Linux - MacOS) üzerinden
-çalıştırılması gereklidir.
+a) Recommended Python Version for running this program: "Python 3.11"
 
-c) Hata almamak ve stabil çalıştırmak için yönetici izini ile çalıştırması tavsiyemdir.
+b) To ensure the necessary Python packages work, the command "pip install -r requirements.txt" must be executed through Command Prompt (CMD) / Terminal (Linux - MacOS).
+
+c) It is recommended to run this program with administrator privileges to avoid errors and ensure stable execution.
+
 ```
  
  
  
 ```
-Bu çalışmanın amacı, Python programlama dilini kullanarak bu işlevleri gerçekleştiren bir
-yazılım geliştirmektir. Bu yazılım, hem tek bir yüzü hem de bir grup yüzü tespit edebilecek ve
-her bir yüz için ayrı ayrı duygu analizi yapabilecektir.
-Geçmişte de benzer çalışmalar yapılmış olsa da, bu çalışmanın özgün bir yanı, kullanılan
-teknolojilerin güncel olması ve daha geniş bir veri kümesi kullanarak daha doğru sonuçlar elde
-etmeyi hedeflemesidir. Bu çalışmanın sonucunda elde edilecek yazılım, insan duygularının
-anlaşılması için bir araç olarak kullanılabilecektir.
+The aim of this project is to develop software using the Python programming language that performs these functions. The software will be capable of detecting both a single face and multiple faces, and will perform individual emotion analysis for each face. While similar studies have been conducted in the past, the unique aspect of this project is the use of up-to-date technologies and the goal of achieving more accurate results by utilizing a broader dataset. The resulting software can be used as a tool for understanding human emotions.
   ```
 
 ```
-Bu çalışmada, Python programlama dili kullanılarak çoklu yüz tespiti, yüz sayısı ve
-tekil duygu tespiti işlevlerini gerçekleştirmek için konvolüsyonel sinir ağı (CNN)
-yöntemi kullanılmıştır. Bu yöntem, verilerin filtreler kullanılarak özelliklerinin
-öğrenilmesine ve daha doğru sonuçların elde edilmesine olanak sağlamaktadır.
-Veriler, görüntü işleme kütüphanesi olan OpenCV kullanılarak işlenmiştir. OpenCV,
-görüntülerin alınması, yüz tespiti ve duygu analizi için kullanılan birçok araç ve
-fonksiyona sahiptir. Ayrıca, verilerin işlenmesi için kullanılan filtrelerin ağırlıkları,
-derin öğrenme teknikleri kullanılarak otomatik olarak öğrenilmiştir.
-Verilerin toplanması için, bir veri seti kullanılmıştır. Bu veri seti, yüz ifadelerinin
-çeşitli duyguları temsil ettiği görüntülerden oluşmaktadır. Veri setindeki görüntüler,
-çeşitli koşullar altında farklı ışık, poz ve yüz ifadesi kombinasyonlarını içermektedir.
-Bu çalışmada, elde edilen sonuçlar, doğruluk oranı, yanlış pozitifler ve yanlış
-negatifler dahil olmak üzere farklı metrikler kullanılarak değerlendirilmiştir.
-Sonuçlar, çoklu yüz tespiti, yüz sayısı ve tekil duygu tespiti işlevlerinde yüksek
-doğruluk oranları elde edildiğini göstermektedir.
+In this project, the Convolutional Neural Network (CNN) method is used to perform multi-face detection, face counting, and individual emotion detection using the Python programming language. This method allows the features of the data to be learned through filters, leading to more accurate results. The data is processed using OpenCV, an image processing library. OpenCV provides many tools and functions used for image acquisition, face detection, and emotion analysis. Additionally, the weights of the filters used in data processing are learned automatically using deep learning techniques.
+
+A dataset consisting of images representing various emotions through facial expressions was used for data collection. The images in the dataset include different light conditions, poses, and combinations of facial expressions. In this study, the results were evaluated using various metrics, including accuracy rate, false positives, and false negatives. The results show that high accuracy rates were achieved in multi-face detection, face counting, and individual emotion detection tasks.
+
   ```
 
 
