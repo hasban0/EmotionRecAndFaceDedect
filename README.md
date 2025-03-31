@@ -5,15 +5,9 @@
 
 
 ```python
- #To install the necessary Python packages 
+ To install the necessary Python packages 
  pip install -r requirements.txt
   ```
-  
-  
-  ```
-   Temel Uyarılar:
-  ```
-  
   
 ```
 Basic Warnings:
